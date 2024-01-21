@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import BaseInput from './ui/BaseInput.vue';
+</script>
+
 <template>
     <footer>
         <div class="footer__up-container">
@@ -32,8 +36,10 @@
                 <div class="footer__up-column">
                     <h3>Подписка</h3>
                     <p class="footer__text">Получайте специальные предложения и новости сервиса</p>
-                    <input class="footer__email" type="text" placeholder="Email">
-                    <img class="footer__email-arrow" src="/src/assets/arrow_email.svg" alt="">
+                    <div class="footer__email">
+                        <base-input :header="''" :is-readonly="false" :placeholder="'Email'"></base-input>
+                        <img class="footer__email-arrow" src="/src/assets/arrow_email.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,19 +140,14 @@ footer {
     line-height: 24px;
 }
 .footer__email {
-
-    border: 1px solid #1F204140;
-    border-radius: 4px;
+    position: relative;
     min-height: 44px;
     width: 100%;
-    line-height: 24px;
-    size: 14px;
-    padding-left: 15px;
 }
 .footer__email-arrow {
-    position: relative;
-    left: 245px;
-    bottom: 33px;
+    position: absolute;
+    left: calc(100% - 31px);
+    top: calc(50% - 7px);
 }
 
 </style>
