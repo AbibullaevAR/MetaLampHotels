@@ -6,7 +6,7 @@ import PriceRangeFilter from './PriceRangeFilter';
 
 const MAX_PRICE_FOR_HOTEL = 10000;
 const MIN_PRICE_FOR_HOTEL = 4000;
-const priceRange = ref([5000, 8000]);
+const priceRange = ref([5000, 9000]);
 const priceRangeFilter = ref(new PriceRangeFilter(unref(priceRange)));
 
 
