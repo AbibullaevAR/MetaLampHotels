@@ -31,7 +31,7 @@ const stringRangeWithDayAndMonth = computed(() => {
 
     const isDateRangeNotChoose = !unref(initDateRange)[0] && !unref(initDateRange)[1];
 
-    if (isDateRangeNotChoose) return 'Select date'
+    if (isDateRangeNotChoose) return 'Выбор даты'
 
     const startDayAndMonth = format(unref(initDateRange)[0], 'd MMM', { locale: ru })
     const endDayAndMonth = format(unref(initDateRange)[1], 'd MMM', { locale: ru })
