@@ -21,7 +21,7 @@ const emit = defineEmits<{
 
 </script>
 <template>
-    <input class="button" :class="buttonType === 'fill' ? 'button_fill' : 'button_drain'" type="button" :value="buttonText"
+    <input class="button" :class="buttonType === 'fill' ? 'button_fill' : 'button_drain'" type="button" :value="buttonText.toUpperCase()"
         @click="emit('click')">
 </template>
 
@@ -29,7 +29,6 @@ const emit = defineEmits<{
 .button {
     border-radius: 22px;
     cursor: pointer;
-    padding: 14px;
     font-size: 12px;
     font-weight: 700;
     line-height: 15px;
