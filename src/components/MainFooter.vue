@@ -33,7 +33,7 @@
                     <h3>Подписка</h3>
                     <p class="footer__text">Получайте специальные предложения и новости сервиса</p>
                     <input class="footer__email" type="text" placeholder="Email">
-                    <img class="footer__email-arrow" src="../img/arrow_email.svg" alt="">
+                    <img class="footer__email-arrow" src="/src/assets/arrow_email.svg" alt="">
                 </div>
             </div>
         </div>
@@ -44,9 +44,9 @@
                     <p>Copyright © 2018 Toxin отель. Все права защищены.</p>
                 </div>
                 <div class="footer__below-icons">
-                    <img src="../img/twitter_logo.svg" alt="">
-                    <img src="../img/facebook_logo.svg" alt="">
-                    <img src="../img/instagram_logo.svg" alt="">
+                    <img src="/src/assets/twitter_logo.svg" alt="">
+                    <img src="/src/assets/facebook_logo.svg" alt="">
+                    <img src="/src/assets/instagram_logo.svg" alt="">
                 </div>
             </div>
         </div>
