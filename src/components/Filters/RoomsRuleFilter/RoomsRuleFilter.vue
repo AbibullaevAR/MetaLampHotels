@@ -17,7 +17,7 @@ const roomsRule = ref([
     {
         id: 'guestsAllowed',
         name: 'Можно пригласить гостей (до 10 человек)',
-        isChecked: true
+        isChecked: false
     }
 ])
 
