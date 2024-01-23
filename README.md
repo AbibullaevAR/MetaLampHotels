@@ -1,6 +1,6 @@
 # MetaLampHotels
 
-This template should help get you started developing with Vue 3 in Vite.
+Live version on https://abibullaevar.github.io/MetaLampHotels/
 
 ## Recommended IDE Setup
 
