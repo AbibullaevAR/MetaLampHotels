@@ -38,7 +38,7 @@ const initStoreFunc = () => {
           name: ''
         }
       ],
-      image: '/assets/hotelsImage/image1.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image1.jpg'
     },
     {
       id: 852,
@@ -63,7 +63,7 @@ const initStoreFunc = () => {
           name: ''
         }
       ],
-      image: '/assets/hotelsImage/image2.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image2.jpg'
     },
     {
       id: 853,
@@ -93,7 +93,7 @@ const initStoreFunc = () => {
           name: ''
         }
       ],
-      image: '/assets/hotelsImage/image3.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image3.jpg'
     },
     {
       id: 854,
@@ -119,7 +119,7 @@ const initStoreFunc = () => {
           name: ''
         }
       ],
-      image: '/assets/hotelsImage/image4.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image4.jpg'
     },
     {
       id: 855,
@@ -149,7 +149,7 @@ const initStoreFunc = () => {
           name: ''
         }
       ],
-      image: '/assets/hotelsImage/image5.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image5.jpg'
     },
     {
       id: 856,
@@ -165,7 +165,7 @@ const initStoreFunc = () => {
         }
       ],
       rules: [],
-      image: '/assets/hotelsImage/image6.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image6.jpg'
     },
     {
       id: 857,
@@ -180,7 +180,7 @@ const initStoreFunc = () => {
           name: ''
         }
       ],
-      image: '/assets/hotelsImage/image7.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image7.jpg'
     },
     {
       id: 858,
@@ -201,7 +201,7 @@ const initStoreFunc = () => {
         }
       ],
       rules: [],
-      image: '/assets/hotelsImage/image8.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image8.jpg'
     },
     {
       id: 859,
@@ -235,7 +235,7 @@ const initStoreFunc = () => {
           name: ''
         }
       ],
-      image: '/assets/hotelsImage/image9.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image9.jpg'
     },
     {
       id: 860,
@@ -245,7 +245,7 @@ const initStoreFunc = () => {
       rooms: [],
       guests: [],
       rules: [],
-      image: '/assets/hotelsImage/image10.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image10.jpg'
     },
     {
       id: 861,
@@ -271,7 +271,7 @@ const initStoreFunc = () => {
         }
       ],
       rules: [],
-      image: '/assets/hotelsImage/image11.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image11.jpg'
     },
     {
       id: 862,
@@ -281,7 +281,7 @@ const initStoreFunc = () => {
       rooms: [],
       guests: [],
       rules: [],
-      image: '/assets/hotelsImage/image12.jpg'
+      image: '/MetaLampHotels/assets/hotelsImage/image12.jpg'
     },
   ]) as Ref<IHotel[]>
 
